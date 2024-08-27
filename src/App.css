@@ -62,14 +62,8 @@ section.about {
 
 h2 {
   color: var(--text-color);
-  /*border-bottom: 2px solid var(--accent-color);*/
-  /*padding-bottom: 0.5rem;*/
   margin-bottom: 1rem;
 }
-
-/*h2.about-me {
-  padding-top: 0;
-}*/
 
 .about p {
   margin-bottom: 1.5rem;
@@ -90,7 +84,6 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*gap: 2rem;*/
 }
 
 .services h2 {
@@ -159,6 +152,28 @@ h2 {
   transform: scale(1.05);
 }
 
+.donate {
+  background-color: var(--accent-color);
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.donate h2 {
+  margin-bottom: 1rem;
+}
+
+.donate p {
+  margin-bottom: 1rem;
+}
+
+.paypal-qr-code {
+  max-width: 200px;
+  margin: 1rem auto;
+  display: block;
+}
+
 footer {
   background: linear-gradient(to bottom, var(--header-background), #ffffff);
   color: var(--header-text-color);
@@ -204,5 +219,9 @@ footer a:hover {
 
   .cta {
     padding: 2rem 1rem;
+  }
+
+  .paypal-qr-code {
+    max-width: 150px;
   }
 }

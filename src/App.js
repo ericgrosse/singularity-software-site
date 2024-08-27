@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import paypalQRCode from './paypal-qr-code.png'; // Make sure to add this image to your project
 
 function App() {
   const [usdRate, setUsdRate] = useState(1);
@@ -54,6 +55,12 @@ function App() {
         <section className="cta">
           <h2>Ready to elevate your software projects?</h2>
           <a href="mailto:eric@singularitysoftware.com" className="cta-button">Contact Me</a>
+        </section>
+        <section className="donate">
+          <h2>Support My Work</h2>
+          <p>If you find my services valuable, consider making a donation:</p>
+          <img src={paypalQRCode} alt="PayPal QR Code" className="paypal-qr-code" />
+          <p>Scan this QR code with your PayPal app to donate</p>
         </section>
       </main>
       <footer>
