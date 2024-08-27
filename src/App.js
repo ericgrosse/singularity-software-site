@@ -29,7 +29,7 @@ function App() {
       </header>
       <main>
         <section className="about">
-          <h2>About Me</h2>
+          <h2 className="about-me">About Me</h2>
           <p>With over a decade of software engineering experience, I've worked with organizations ranging from 9-employee startups to multinational billion-dollar corporations. My expertise includes:</p>
           <ul>
             <li>Remote contract work with flexible hours</li>
