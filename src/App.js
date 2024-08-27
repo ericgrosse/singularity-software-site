@@ -15,10 +15,10 @@ function App() {
   }, []);
 
   const services = [
-    { name: 'Full Stack Development', rate: 150 },
-    { name: 'AI/ML Consulting', rate: 200 },
-    { name: 'Code Review and Optimization', rate: 125 },
-    { name: 'Technical Project Management', rate: 175 },
+    { name: 'Full Stack Development', rate: 100 },
+    { name: 'AI/ML Consulting', rate: 125 },
+    { name: 'Code Review and Optimization', rate: 50 },
+    { name: 'Technical Project Management', rate: 150 },
   ];
 
   return (
