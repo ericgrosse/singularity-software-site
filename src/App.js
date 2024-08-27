@@ -41,13 +41,15 @@ function App() {
         </section>
         <section className="services">
           <h2>Services and Rates</h2>
-          {services.map((service, index) => (
-            <div key={index} className="service-item">
-              <h3>{service.name}</h3>
-              <p>USD: ${service.rate}/hour</p>
-              <p>CAD: ${(service.rate * cadRate).toFixed(2)}/hour</p>
-            </div>
-          ))}
+          <div className="service-items-container">
+            {services.map((service, index) => (
+              <div key={index} className="service-item">
+                <h3>{service.name}</h3>
+                <p>USD: ${service.rate}/hour</p>
+                <p>CAD: ${(service.rate * cadRate).toFixed(2)}/hour</p>
+              </div>
+            ))}
+          </div>
         </section>
         <section className="cta">
           <h2>Ready to elevate your software projects?</h2>
